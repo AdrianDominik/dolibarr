@@ -2264,6 +2264,27 @@ div.tabsAction {
     margin: 20px 0em 20px 0em;
     padding: 0em 0em;
     text-align: right;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    margin: 0em <?php echo ($dol_optimize_smallscreen?'0.6':'0.9'); ?>em !important;
+    padding: 0.6em <?php echo ($dol_optimize_smallscreen?'0.6':'0.7'); ?>em;
+    font-family: <?php print $fontlist ?>;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    /* color: #fff; */
+    /* background: rgb(<?php echo $colorbackhmenu1 ?>); */
+    color: #444;
+    /* border: 1px solid #aaa; */
+    /* border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25); */
+
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
 }
 div.tabsActionNoBottom {
     margin-bottom: 0px;

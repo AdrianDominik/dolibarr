@@ -2319,7 +2319,11 @@ div.popuptab {
 div.tabsAction {
     margin: 20px 0em 20px 0em;
     padding: 0em 0em;
-    text-align: right;
+    text-align: left;
+    font-size: 1.1em;
+}
+div.tabsAction p {
+    font-size: 1.4em;
 }
 div.tabsActionNoBottom {
     margin-bottom: 0px;
@@ -2327,7 +2331,6 @@ div.tabsActionNoBottom {
 div.tabsAction > a {
 	margin-bottom: 16px !important;
 }
-
 a.tabTitle {
     color:rgba(0,0,0,.5) !important;
     text-shadow:1px 1px 1px #ffffff;
