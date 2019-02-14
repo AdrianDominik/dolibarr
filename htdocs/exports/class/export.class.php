@@ -28,7 +28,7 @@
 /**
  *	Class to manage exports
  */
-class Export
+class Exportar
 {
 	var $db;
 
